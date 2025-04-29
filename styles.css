@@ -1,0 +1,29 @@
+/*css code adapted from this website:*/
+/*https://www.w3schools.com/*/
+
+
+
+body {
+  background-color: lightyellow;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5vh;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 5vh;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: green;
+  color: white;
+}
+
