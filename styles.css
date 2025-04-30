@@ -9,6 +9,11 @@ body {
   background-image: linear-gradient(to right, rgba(255,249,186,1), rgba(0,0,0,0));
 }
 
+#homebutton {
+  color: black;
+  font-size: 20px;
+}
+
 .navbar {
   height: 100%;
   width: 150px;
@@ -20,11 +25,6 @@ body {
   overflow-x: hidden;
   padding: 3px 0;
   text-align: center;
-}
-
-#homebutton {
-  color: black;
-  font-size: 20px;
 }
 
 .navbar a {
@@ -65,14 +65,35 @@ body {
   color: black;
 }
 
+.did-you-know {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+  left: 1220px;
+  background: #d1d1d1;
+  overflow-x: hidden;
+  padding: 3px 0;
+  text-align: center;
+}
+
+.did-you-know a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: darkgreen;
+  display: block;
+}
+
 .main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 25px; /* Increased text to enable scrolling */
+  margin-left: 140px;
+  margin-right: 300px;
+  font-size: 25px;
   padding: 0px 10px;
 }
 
-#testbutton {
-  display: flex;
+.button {
   justify-content: center;
   gap: 20px;
   border-radius: 20px;
@@ -80,11 +101,6 @@ body {
   font-weight: bold;
   color: #256600;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: Arial;
   background-color: red;
-}
-
-@media screen and (max-height: 450px) {
-  .navbar {padding-top: 15px;}
-  .navbar a {font-size: 18px;}
 }
